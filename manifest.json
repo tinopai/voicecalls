@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "SiriCalls",
+    "version": "1.0",
+    "description": "Siri shortcuts to do stuff in Firefox",
+    "icons": {
+      "48": "icons/siricalls-48.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["main.js"]
+      }
+    ]
+}
