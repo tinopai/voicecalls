@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "SiriCalls",
+    "name": "VoiceCalls",
     "version": "1.0",
-    "description": "Siri shortcuts to do stuff in Firefox",
+    "description": "Use your voice to do stuff in your browser",
     "icons": {
-      "48": "icons/siricalls-48.png"
+      "48": "icons/voicecalls-48.png"
     },
     "content_scripts": [
       {
